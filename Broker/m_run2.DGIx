@@ -1,0 +1,3829 @@
+2018-Aug-30 10:23:56.073934 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:23:56.074206 : CAdapterFactory.cpp : Status(4):
+	Plug and play devices disabled.
+2018-Aug-30 10:23:56.074240 : CAdapterFactory.cpp : Status(4):
+	System will start without adapters.
+2018-Aug-30 10:23:56.074301 : CAdapterFactory.cpp : Status(4):
+	Starting the adapter i/o service.
+2018-Aug-30 10:23:56.604056 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 1) for 326 ms
+2018-Aug-30 10:23:56.604123 : CBroker.cpp : Notice(5):
+	Phase: gm for 326ms offset 00:00:00
+2018-Aug-30 10:23:56.604168 : GroupManagement.cpp : Notice(5):
+	Registering peer ds10:5004
+2018-Aug-30 10:23:56.604212 : GroupManagement.cpp : Notice(5):
+	Registering peer ds11:5005
+2018-Aug-30 10:23:56.604259 : GroupManagement.cpp : Notice(5):
+	Registering peer ds12:5006
+2018-Aug-30 10:23:56.604300 : GroupManagement.cpp : Notice(5):
+	Registering peer ds13:5007
+2018-Aug-30 10:23:56.604345 : GroupManagement.cpp : Notice(5):
+	Registering peer ds7:5001
+2018-Aug-30 10:23:56.604385 : GroupManagement.cpp : Notice(5):
+	Registering peer ds8:5002
+2018-Aug-30 10:23:56.604425 : GroupManagement.cpp : Notice(5):
+	Registering peer ds9:5003
+2018-Aug-30 10:23:56.604469 : GroupManagement.cpp : Notice(5):
+	All peers added 7
+2018-Aug-30 10:23:56.604509 : GroupManagement.cpp : Notice(5):
+	! ds10:5004 added to peer set
+2018-Aug-30 10:23:56.604548 : GroupManagement.cpp : Notice(5):
+	! ds11:5005 added to peer set
+2018-Aug-30 10:23:56.604586 : GroupManagement.cpp : Notice(5):
+	! ds12:5006 added to peer set
+2018-Aug-30 10:23:56.604625 : GroupManagement.cpp : Notice(5):
+	! ds13:5007 added to peer set
+2018-Aug-30 10:23:56.604664 : GroupManagement.cpp : Notice(5):
+	! ds7:5001 added to peer set
+2018-Aug-30 10:23:56.604703 : GroupManagement.cpp : Notice(5):
+	! ds8:5002 added to peer set
+2018-Aug-30 10:23:56.604741 : GroupManagement.cpp : Notice(5):
+	! ds9:5003 added to peer set
+2018-Aug-30 10:23:56.604781 : GroupManagement.cpp : Notice(5):
+	+ State Change ELECTION : 441
+2018-Aug-30 10:23:56.604821 : GroupManagement.cpp : Notice(5):
+	Changed group: 1804289384 (ds7:5001)
+2018-Aug-30 10:23:56.604882 : GroupManagement.cpp : Notice(5):
+	+ State Change REORGANIZATION : 454
+2018-Aug-30 10:23:56.604927 : GroupManagement.cpp : Notice(5):
+	+ State Change NORMAL : 457
+2018-Aug-30 10:23:56.605363 : CConnectionManager.cpp : Warn(3):
+	EP = [::1]:5001
+2018-Aug-30 10:23:56.606090 : GroupManagement.cpp : Notice(5):
+	Updated peer set (UPDATE)
+2018-Aug-30 10:23:56.932136 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-Aug-30 10:23:56.932205 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00
+2018-Aug-30 10:23:56.932247 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:23:56.932287 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:23:57.250418 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Aug-30 10:23:57.250486 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Aug-30 10:23:57.250547 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Aug-30 10:23:57.250588 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+ --------------------VVC ---------------------------------
+2018-Aug-30 10:23:57.250676 : VoltVarCtrl.cpp : Notice(5):
+	Updated Peer List Received from: ds7:5001
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:23:57.272552 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:23:57.272588 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:23:57.272637 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:23:57.272653 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:23:57.272669 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:24:01.350732 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Aug-30 10:24:01.350801 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:24:01.350842 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:24:01.350884 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:24:01.350950 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:24:01.351000 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:24:01.351072 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529667
+
+2018-Aug-30 10:24:01.351229 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.70:5004
+2018-Aug-30 10:24:01.351505 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.71:5005
+2018-Aug-30 10:24:01.351716 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.72:5006
+2018-Aug-30 10:24:01.351914 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.73:5007
+2018-Aug-30 10:24:01.352105 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.68:5002
+2018-Aug-30 10:24:01.352291 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.69:5003
+2018-Aug-30 10:24:01.492491 : CPhysicalTopology.cpp : Warn(3):
+	No topology configuration file specified
+2018-Aug-30 10:24:01.492552 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:24:01.882471 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-Aug-30 10:24:01.882541 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00
+2018-Aug-30 10:24:01.882582 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:24:01.882622 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:24:02.200732 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Aug-30 10:24:02.200802 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Aug-30 10:24:02.200872 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Aug-30 10:24:02.200913 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:24:02.222049 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:24:02.222071 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:24:02.222091 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:24:02.222106 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:24:02.222136 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:24:06.074722 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00
+2018-Aug-30 10:24:06.301029 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-Aug-30 10:24:06.301097 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset 00:00:00
+2018-Aug-30 10:24:06.301140 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:24:06.301183 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:24:06.301243 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:24:06.301289 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:24:06.301360 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.528674
+
+2018-Aug-30 10:24:06.441838 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:24:06.830833 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 1) for 0 ms
+2018-Aug-30 10:24:06.830901 : CBroker.cpp : Notice(5):
+	Phase: gm for 0ms offset 00:00:00
+2018-Aug-30 10:24:06.830963 : CBroker.cpp : Notice(5):
+	Phase: sc for 320ms offset 00:00:00
+2018-Aug-30 10:24:06.831006 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:24:06.831046 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:24:07.151156 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-Aug-30 10:24:07.151225 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00
+2018-Aug-30 10:24:07.151266 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:24:07.172241 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:24:07.172263 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:24:07.172283 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:24:07.172313 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:24:07.172330 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:24:11.250381 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Aug-30 10:24:11.250450 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:24:11.250491 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:24:11.250532 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:24:11.250589 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:24:11.250637 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:24:11.250709 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529678
+
+2018-Aug-30 10:24:11.391216 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:24:11.781221 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Aug-30 10:24:11.781290 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00
+2018-Aug-30 10:24:11.781332 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:24:11.781372 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:24:12.100481 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Aug-30 10:24:12.100549 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Aug-30 10:24:12.100610 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Aug-30 10:24:12.100651 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:24:12.122022 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:24:12.122043 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:24:12.122063 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:24:12.122095 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:24:12.122111 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:24:15.400369 : CProtocolSR.cpp : Warn(3):
+	Connection to ds10:5004 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:15.400450 : CProtocolSR.cpp : Warn(3):
+	Connection to ds11:5005 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:15.400514 : CProtocolSR.cpp : Warn(3):
+	Connection to ds12:5006 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:15.400570 : CProtocolSR.cpp : Warn(3):
+	Connection to ds13:5007 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:15.400626 : CProtocolSR.cpp : Warn(3):
+	Connection to ds8:5002 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:15.400683 : CProtocolSR.cpp : Warn(3):
+	Connection to ds9:5003 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:16.074771 : CConnectionManager.cpp : Warn(3):
+	Connection to ds8:5002 has gone stale 
+2018-Aug-30 10:24:16.074949 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.68:5002
+2018-Aug-30 10:24:16.075090 : CConnectionManager.cpp : Warn(3):
+	Connection to ds9:5003 has gone stale 
+2018-Aug-30 10:24:16.075227 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.69:5003
+2018-Aug-30 10:24:16.075343 : CConnectionManager.cpp : Warn(3):
+	Connection to ds10:5004 has gone stale 
+2018-Aug-30 10:24:16.075472 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.70:5004
+2018-Aug-30 10:24:16.075583 : CConnectionManager.cpp : Warn(3):
+	Connection to ds11:5005 has gone stale 
+2018-Aug-30 10:24:16.075711 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.71:5005
+2018-Aug-30 10:24:16.075827 : CConnectionManager.cpp : Warn(3):
+	Connection to ds12:5006 has gone stale 
+2018-Aug-30 10:24:16.075955 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.72:5006
+2018-Aug-30 10:24:16.076069 : CConnectionManager.cpp : Warn(3):
+	Connection to ds13:5007 has gone stale 
+2018-Aug-30 10:24:16.076197 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.73:5007
+2018-Aug-30 10:24:16.076318 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00
+2018-Aug-30 10:24:16.200777 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Aug-30 10:24:16.200850 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:24:16.200894 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:24:16.200933 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:24:16.200985 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:24:16.201030 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:24:16.201098 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529684
+
+2018-Aug-30 10:24:16.341545 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:24:16.731549 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Aug-30 10:24:16.731617 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00
+2018-Aug-30 10:24:16.731658 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:24:16.731698 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:24:17.050808 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Aug-30 10:24:17.050877 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Aug-30 10:24:17.050938 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Aug-30 10:24:17.050980 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:24:17.072239 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:24:17.072260 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:24:17.072281 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:24:17.072315 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:24:17.072331 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:24:21.151099 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-Aug-30 10:24:21.151168 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset 00:00:00
+2018-Aug-30 10:24:21.151209 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:24:21.151252 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:24:21.151309 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:24:21.151357 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:24:21.151429 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.528676
+
+2018-Aug-30 10:24:21.291912 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:24:21.680908 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 1) for 0 ms
+2018-Aug-30 10:24:21.680976 : CBroker.cpp : Notice(5):
+	Phase: gm for 0ms offset 00:00:00
+2018-Aug-30 10:24:21.681037 : CBroker.cpp : Notice(5):
+	Phase: sc for 320ms offset 00:00:00
+2018-Aug-30 10:24:21.681079 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:24:21.681121 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:24:22.001232 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-Aug-30 10:24:22.001300 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00
+2018-Aug-30 10:24:22.001342 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:24:22.022349 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:24:22.022370 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:24:22.022391 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:24:22.022421 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:24:22.022438 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:24:26.076785 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00
+2018-Aug-30 10:24:26.100462 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Aug-30 10:24:26.100530 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:24:26.100573 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:24:26.100615 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:24:26.100670 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:24:26.100718 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:24:26.100789 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529678
+
+2018-Aug-30 10:24:26.241338 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:24:26.631332 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Aug-30 10:24:26.631401 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00
+2018-Aug-30 10:24:26.631441 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:24:26.631482 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:24:26.950590 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Aug-30 10:24:26.950659 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Aug-30 10:24:26.950719 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Aug-30 10:24:26.950761 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:24:26.972173 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:24:26.972194 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:24:26.972215 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:24:26.972245 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:24:26.972261 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:24:30.190697 : CProtocolSR.cpp : Warn(3):
+	Connection to ds10:5004 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:30.190783 : CProtocolSR.cpp : Warn(3):
+	Connection to ds11:5005 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:30.190852 : CProtocolSR.cpp : Warn(3):
+	Connection to ds12:5006 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:30.190915 : CProtocolSR.cpp : Warn(3):
+	Connection to ds13:5007 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:30.190974 : CProtocolSR.cpp : Warn(3):
+	Connection to ds8:5002 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:30.191036 : CProtocolSR.cpp : Warn(3):
+	Connection to ds9:5003 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:31.050877 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Aug-30 10:24:31.050946 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:24:31.050988 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:24:31.051029 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:24:31.051084 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:24:31.051131 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:24:31.051200 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529682
+
+2018-Aug-30 10:24:31.051249 : CConnectionManager.cpp : Warn(3):
+	Connection to ds10:5004 has gone stale 
+2018-Aug-30 10:24:31.051407 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.70:5004
+2018-Aug-30 10:24:31.051544 : CConnectionManager.cpp : Warn(3):
+	Connection to ds11:5005 has gone stale 
+2018-Aug-30 10:24:31.051683 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.71:5005
+2018-Aug-30 10:24:31.051803 : CConnectionManager.cpp : Warn(3):
+	Connection to ds12:5006 has gone stale 
+2018-Aug-30 10:24:31.051935 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.72:5006
+2018-Aug-30 10:24:31.052051 : CConnectionManager.cpp : Warn(3):
+	Connection to ds13:5007 has gone stale 
+2018-Aug-30 10:24:31.052183 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.73:5007
+2018-Aug-30 10:24:31.052292 : CConnectionManager.cpp : Warn(3):
+	Connection to ds8:5002 has gone stale 
+2018-Aug-30 10:24:31.052421 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.68:5002
+2018-Aug-30 10:24:31.052528 : CConnectionManager.cpp : Warn(3):
+	Connection to ds9:5003 has gone stale 
+2018-Aug-30 10:24:31.052656 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.69:5003
+2018-Aug-30 10:24:31.192857 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:24:31.582846 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-Aug-30 10:24:31.582916 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00
+2018-Aug-30 10:24:31.582958 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:24:31.582999 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:24:31.901111 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-Aug-30 10:24:31.901180 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00
+2018-Aug-30 10:24:31.901223 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:24:31.922385 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:24:31.922407 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:24:31.922428 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:24:31.922459 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:24:31.922476 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:24:36.000341 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Aug-30 10:24:36.000410 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:24:36.000451 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:24:36.000493 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:24:36.000548 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:24:36.000596 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:24:36.000666 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529681
+
+2018-Aug-30 10:24:36.077233 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00
+2018-Aug-30 10:24:36.141135 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:24:36.531130 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Aug-30 10:24:36.531199 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00
+2018-Aug-30 10:24:36.531241 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:24:36.531281 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:24:36.850391 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Aug-30 10:24:36.850460 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Aug-30 10:24:36.850521 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Aug-30 10:24:36.850564 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:24:36.871517 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:24:36.871539 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:24:36.871722 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:24:36.871756 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:24:36.871773 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:24:40.950679 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Aug-30 10:24:40.950748 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:24:40.950790 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:24:40.950833 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:24:40.950889 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:24:40.950936 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:24:40.951006 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529680
+
+2018-Aug-30 10:24:41.091523 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:24:41.481508 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Aug-30 10:24:41.481576 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00
+2018-Aug-30 10:24:41.481617 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:24:41.481658 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:24:41.800768 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Aug-30 10:24:41.800845 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Aug-30 10:24:41.800905 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Aug-30 10:24:41.800946 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:24:41.822268 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:24:41.822289 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:24:41.822310 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:24:41.822325 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:24:41.822357 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:24:45.100784 : CProtocolSR.cpp : Warn(3):
+	Connection to ds10:5004 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:45.100876 : CProtocolSR.cpp : Warn(3):
+	Connection to ds11:5005 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:45.100941 : CProtocolSR.cpp : Warn(3):
+	Connection to ds12:5006 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:45.100997 : CProtocolSR.cpp : Warn(3):
+	Connection to ds13:5007 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:45.101052 : CProtocolSR.cpp : Warn(3):
+	Connection to ds8:5002 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:45.101109 : CProtocolSR.cpp : Warn(3):
+	Connection to ds9:5003 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:45.901068 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-Aug-30 10:24:45.901136 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset 00:00:00
+2018-Aug-30 10:24:45.901178 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:24:45.901220 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:24:45.901279 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:24:45.901325 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:24:45.901395 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.528678
+
+2018-Aug-30 10:24:45.901444 : CConnectionManager.cpp : Warn(3):
+	Connection to ds10:5004 has gone stale 
+2018-Aug-30 10:24:45.901601 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.70:5004
+2018-Aug-30 10:24:45.901738 : CConnectionManager.cpp : Warn(3):
+	Connection to ds11:5005 has gone stale 
+2018-Aug-30 10:24:45.901876 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.71:5005
+2018-Aug-30 10:24:45.901998 : CConnectionManager.cpp : Warn(3):
+	Connection to ds12:5006 has gone stale 
+2018-Aug-30 10:24:45.902130 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.72:5006
+2018-Aug-30 10:24:45.902245 : CConnectionManager.cpp : Warn(3):
+	Connection to ds13:5007 has gone stale 
+2018-Aug-30 10:24:45.902379 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.73:5007
+2018-Aug-30 10:24:45.902487 : CConnectionManager.cpp : Warn(3):
+	Connection to ds8:5002 has gone stale 
+2018-Aug-30 10:24:45.902616 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.68:5002
+2018-Aug-30 10:24:45.902723 : CConnectionManager.cpp : Warn(3):
+	Connection to ds9:5003 has gone stale 
+2018-Aug-30 10:24:45.902851 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.69:5003
+2018-Aug-30 10:24:46.043023 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:24:46.077632 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00
+2018-Aug-30 10:24:46.432017 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-Aug-30 10:24:46.432080 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00
+2018-Aug-30 10:24:46.432119 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:24:46.432157 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:24:46.750265 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Aug-30 10:24:46.750333 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Aug-30 10:24:46.750394 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Aug-30 10:24:46.750436 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:24:46.771546 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:24:46.771567 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:24:46.771587 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:24:46.771619 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:24:46.771635 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:24:50.850552 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Aug-30 10:24:50.850621 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:24:50.850664 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:24:50.850706 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:24:50.850769 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:24:50.850815 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:24:50.850885 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529673
+
+2018-Aug-30 10:24:50.991358 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:24:51.381354 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Aug-30 10:24:51.381422 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00
+2018-Aug-30 10:24:51.381464 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:24:51.381506 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:24:51.700616 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Aug-30 10:24:51.700684 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Aug-30 10:24:51.700744 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Aug-30 10:24:51.700787 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:24:51.722683 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:24:51.722705 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:24:51.722725 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:24:51.722740 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:24:51.722771 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:24:55.800912 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Aug-30 10:24:55.800981 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:24:55.801023 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:24:55.801066 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:24:55.801121 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:24:55.801167 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:24:55.801238 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529681
+
+2018-Aug-30 10:24:55.941756 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:24:56.078136 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00
+2018-Aug-30 10:24:56.331754 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Aug-30 10:24:56.331823 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00
+2018-Aug-30 10:24:56.331866 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:24:56.331906 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:24:56.651014 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-Aug-30 10:24:56.651084 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00
+2018-Aug-30 10:24:56.651126 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:24:56.672499 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:24:56.672521 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:24:56.672541 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:24:56.672557 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:24:56.672585 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:24:59.927071 : CProtocolSR.cpp : Warn(3):
+	Connection to ds8:5002 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:59.927155 : CProtocolSR.cpp : Warn(3):
+	Connection to ds9:5003 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:59.927222 : CProtocolSR.cpp : Warn(3):
+	Connection to ds10:5004 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:59.927284 : CProtocolSR.cpp : Warn(3):
+	Connection to ds11:5005 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:59.927343 : CProtocolSR.cpp : Warn(3):
+	Connection to ds12:5006 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:24:59.927401 : CProtocolSR.cpp : Warn(3):
+	Connection to ds13:5007 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:00.750245 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Aug-30 10:25:00.750315 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:25:00.750357 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:25:00.750400 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:25:00.750457 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:25:00.750505 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:25:00.750577 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529673
+
+2018-Aug-30 10:25:00.750626 : CConnectionManager.cpp : Warn(3):
+	Connection to ds10:5004 has gone stale 
+2018-Aug-30 10:25:00.750787 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.70:5004
+2018-Aug-30 10:25:00.750926 : CConnectionManager.cpp : Warn(3):
+	Connection to ds11:5005 has gone stale 
+2018-Aug-30 10:25:00.751067 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.71:5005
+2018-Aug-30 10:25:00.751187 : CConnectionManager.cpp : Warn(3):
+	Connection to ds12:5006 has gone stale 
+2018-Aug-30 10:25:00.751321 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.72:5006
+2018-Aug-30 10:25:00.751436 : CConnectionManager.cpp : Warn(3):
+	Connection to ds13:5007 has gone stale 
+2018-Aug-30 10:25:00.751570 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.73:5007
+2018-Aug-30 10:25:00.751678 : CConnectionManager.cpp : Warn(3):
+	Connection to ds8:5002 has gone stale 
+2018-Aug-30 10:25:00.751808 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.68:5002
+2018-Aug-30 10:25:00.751914 : CConnectionManager.cpp : Warn(3):
+	Connection to ds9:5003 has gone stale 
+2018-Aug-30 10:25:00.752043 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.69:5003
+2018-Aug-30 10:25:00.892236 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:25:01.282218 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-Aug-30 10:25:01.282282 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00
+2018-Aug-30 10:25:01.282320 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:25:01.282359 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:25:01.600468 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Aug-30 10:25:01.600536 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Aug-30 10:25:01.600597 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Aug-30 10:25:01.600639 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:25:01.621652 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:25:01.621673 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:25:01.621694 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:25:01.621709 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:25:01.621740 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:25:05.700757 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Aug-30 10:25:05.700826 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:25:05.700876 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:25:05.700919 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:25:05.700975 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:25:05.701024 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:25:05.701094 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529668
+
+2018-Aug-30 10:25:05.841546 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:25:06.078576 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00
+2018-Aug-30 10:25:06.231542 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Aug-30 10:25:06.231612 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00
+2018-Aug-30 10:25:06.231654 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:25:06.231694 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:25:06.550805 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Aug-30 10:25:06.550873 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Aug-30 10:25:06.550934 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Aug-30 10:25:06.550975 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:25:06.572410 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:25:06.572432 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:25:06.572632 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:25:06.572650 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:25:06.572667 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:25:10.651091 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-Aug-30 10:25:10.651161 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset 00:00:00
+2018-Aug-30 10:25:10.651202 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:25:10.651246 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:25:10.651305 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:25:10.651351 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:25:10.651421 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.528675
+
+2018-Aug-30 10:25:10.791936 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:25:11.180932 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 1) for 0 ms
+2018-Aug-30 10:25:11.181000 : CBroker.cpp : Notice(5):
+	Phase: gm for 0ms offset 00:00:00
+2018-Aug-30 10:25:11.181060 : CBroker.cpp : Notice(5):
+	Phase: sc for 320ms offset 00:00:00
+2018-Aug-30 10:25:11.181103 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:25:11.181143 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:25:11.501254 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-Aug-30 10:25:11.501322 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00
+2018-Aug-30 10:25:11.501364 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:25:11.522607 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:25:11.522628 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:25:11.522648 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:25:11.522681 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:25:11.522697 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:25:14.801170 : CProtocolSR.cpp : Warn(3):
+	Connection to ds10:5004 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:14.801250 : CProtocolSR.cpp : Warn(3):
+	Connection to ds11:5005 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:14.801313 : CProtocolSR.cpp : Warn(3):
+	Connection to ds12:5006 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:14.801369 : CProtocolSR.cpp : Warn(3):
+	Connection to ds13:5007 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:14.801424 : CProtocolSR.cpp : Warn(3):
+	Connection to ds8:5002 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:14.801482 : CProtocolSR.cpp : Warn(3):
+	Connection to ds9:5003 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:15.600484 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Aug-30 10:25:15.600553 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:25:15.600595 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:25:15.600638 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:25:15.600694 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:25:15.600742 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:25:15.600814 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529676
+
+2018-Aug-30 10:25:15.600878 : CConnectionManager.cpp : Warn(3):
+	Connection to ds10:5004 has gone stale 
+2018-Aug-30 10:25:15.601037 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.70:5004
+2018-Aug-30 10:25:15.601174 : CConnectionManager.cpp : Warn(3):
+	Connection to ds11:5005 has gone stale 
+2018-Aug-30 10:25:15.601311 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.71:5005
+2018-Aug-30 10:25:15.601432 : CConnectionManager.cpp : Warn(3):
+	Connection to ds12:5006 has gone stale 
+2018-Aug-30 10:25:15.601566 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.72:5006
+2018-Aug-30 10:25:15.601681 : CConnectionManager.cpp : Warn(3):
+	Connection to ds13:5007 has gone stale 
+2018-Aug-30 10:25:15.601812 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.73:5007
+2018-Aug-30 10:25:15.601920 : CConnectionManager.cpp : Warn(3):
+	Connection to ds8:5002 has gone stale 
+2018-Aug-30 10:25:15.602048 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.68:5002
+2018-Aug-30 10:25:15.602154 : CConnectionManager.cpp : Warn(3):
+	Connection to ds9:5003 has gone stale 
+2018-Aug-30 10:25:15.602282 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.69:5003
+2018-Aug-30 10:25:15.742453 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:25:16.078985 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00
+2018-Aug-30 10:25:16.132462 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-Aug-30 10:25:16.132531 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00
+2018-Aug-30 10:25:16.132573 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:25:16.132614 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:25:16.450730 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Aug-30 10:25:16.450798 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Aug-30 10:25:16.450859 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Aug-30 10:25:16.450902 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:25:16.472430 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:25:16.472451 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:25:16.472472 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:25:16.472508 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:25:16.472524 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:25:20.551018 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-Aug-30 10:25:20.551087 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset 00:00:00
+2018-Aug-30 10:25:20.551129 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:25:20.551171 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:25:20.551225 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:25:20.551270 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:25:20.551338 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.528685
+
+2018-Aug-30 10:25:20.691826 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:25:21.080822 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 1) for 0 ms
+2018-Aug-30 10:25:21.080903 : CBroker.cpp : Notice(5):
+	Phase: gm for 0ms offset 00:00:00
+2018-Aug-30 10:25:21.080963 : CBroker.cpp : Notice(5):
+	Phase: sc for 320ms offset 00:00:00
+2018-Aug-30 10:25:21.081005 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:25:21.081046 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:25:21.401155 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-Aug-30 10:25:21.401224 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00
+2018-Aug-30 10:25:21.401266 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:25:21.422559 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:25:21.422581 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:25:21.422601 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:25:21.422631 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:25:21.422648 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:25:25.500381 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Aug-30 10:25:25.500451 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:25:25.500492 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:25:25.500535 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:25:25.500590 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:25:25.500637 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:25:25.500707 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529679
+
+2018-Aug-30 10:25:25.641241 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:25:26.031237 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Aug-30 10:25:26.031307 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00
+2018-Aug-30 10:25:26.031348 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:25:26.031389 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:25:26.079484 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00
+2018-Aug-30 10:25:26.350499 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Aug-30 10:25:26.350568 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Aug-30 10:25:26.350629 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Aug-30 10:25:26.350671 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:25:26.371689 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:25:26.371711 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:25:26.371731 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:25:26.371764 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:25:26.371780 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:25:29.627660 : CProtocolSR.cpp : Warn(3):
+	Connection to ds8:5002 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:29.627745 : CProtocolSR.cpp : Warn(3):
+	Connection to ds9:5003 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:29.627819 : CProtocolSR.cpp : Warn(3):
+	Connection to ds10:5004 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:29.627879 : CProtocolSR.cpp : Warn(3):
+	Connection to ds11:5005 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:29.627938 : CProtocolSR.cpp : Warn(3):
+	Connection to ds12:5006 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:29.628002 : CProtocolSR.cpp : Warn(3):
+	Connection to ds13:5007 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:30.450799 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Aug-30 10:25:30.450867 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:25:30.450909 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:25:30.450953 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:25:30.451008 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:25:30.451056 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:25:30.451128 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529676
+
+2018-Aug-30 10:25:30.451177 : CConnectionManager.cpp : Warn(3):
+	Connection to ds10:5004 has gone stale 
+2018-Aug-30 10:25:30.451338 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.70:5004
+2018-Aug-30 10:25:30.451475 : CConnectionManager.cpp : Warn(3):
+	Connection to ds11:5005 has gone stale 
+2018-Aug-30 10:25:30.451615 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.71:5005
+2018-Aug-30 10:25:30.451736 : CConnectionManager.cpp : Warn(3):
+	Connection to ds12:5006 has gone stale 
+2018-Aug-30 10:25:30.451869 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.72:5006
+2018-Aug-30 10:25:30.451983 : CConnectionManager.cpp : Warn(3):
+	Connection to ds13:5007 has gone stale 
+2018-Aug-30 10:25:30.452115 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.73:5007
+2018-Aug-30 10:25:30.452225 : CConnectionManager.cpp : Warn(3):
+	Connection to ds8:5002 has gone stale 
+2018-Aug-30 10:25:30.452353 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.68:5002
+2018-Aug-30 10:25:30.452460 : CConnectionManager.cpp : Warn(3):
+	Connection to ds9:5003 has gone stale 
+2018-Aug-30 10:25:30.452588 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.69:5003
+2018-Aug-30 10:25:30.592782 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:25:30.982766 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-Aug-30 10:25:30.982835 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00
+2018-Aug-30 10:25:30.982876 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:25:30.982917 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:25:31.301028 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-Aug-30 10:25:31.301096 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00
+2018-Aug-30 10:25:31.301138 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:25:31.322575 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:25:31.322597 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:25:31.322618 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:25:31.322652 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:25:31.322668 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:25:35.400255 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Aug-30 10:25:35.400324 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:25:35.400365 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:25:35.400407 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:25:35.400463 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:25:35.400512 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:25:35.400583 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529677
+
+2018-Aug-30 10:25:35.541052 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:25:35.931051 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Aug-30 10:25:35.931120 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00
+2018-Aug-30 10:25:35.931162 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:25:35.931203 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:25:36.079921 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00
+2018-Aug-30 10:25:36.250316 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Aug-30 10:25:36.250385 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Aug-30 10:25:36.250445 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Aug-30 10:25:36.250488 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:25:36.271672 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:25:36.271694 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:25:36.271865 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:25:36.271885 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:25:36.271902 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:25:40.350604 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Aug-30 10:25:40.350673 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:25:40.350714 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:25:40.350757 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:25:40.350818 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:25:40.350865 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:25:40.350934 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529676
+
+2018-Aug-30 10:25:40.491450 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:25:40.881446 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Aug-30 10:25:40.881514 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00
+2018-Aug-30 10:25:40.881556 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:25:40.881596 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:25:41.200707 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Aug-30 10:25:41.200776 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Aug-30 10:25:41.200843 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Aug-30 10:25:41.200886 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:25:41.222233 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:25:41.222271 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:25:41.222293 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:25:41.222321 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:25:41.222353 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:25:44.500478 : CProtocolSR.cpp : Warn(3):
+	Connection to ds10:5004 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:44.500563 : CProtocolSR.cpp : Warn(3):
+	Connection to ds11:5005 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:44.500622 : CProtocolSR.cpp : Warn(3):
+	Connection to ds12:5006 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:44.500678 : CProtocolSR.cpp : Warn(3):
+	Connection to ds13:5007 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:44.500737 : CProtocolSR.cpp : Warn(3):
+	Connection to ds8:5002 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:44.500792 : CProtocolSR.cpp : Warn(3):
+	Connection to ds9:5003 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:45.301004 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-Aug-30 10:25:45.301073 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset 00:00:00
+2018-Aug-30 10:25:45.301115 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:25:45.301157 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:25:45.301213 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:25:45.301261 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:25:45.301332 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.528678
+
+2018-Aug-30 10:25:45.301381 : CConnectionManager.cpp : Warn(3):
+	Connection to ds10:5004 has gone stale 
+2018-Aug-30 10:25:45.301540 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.70:5004
+2018-Aug-30 10:25:45.301678 : CConnectionManager.cpp : Warn(3):
+	Connection to ds11:5005 has gone stale 
+2018-Aug-30 10:25:45.301814 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.71:5005
+2018-Aug-30 10:25:45.301936 : CConnectionManager.cpp : Warn(3):
+	Connection to ds12:5006 has gone stale 
+2018-Aug-30 10:25:45.302069 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.72:5006
+2018-Aug-30 10:25:45.302183 : CConnectionManager.cpp : Warn(3):
+	Connection to ds13:5007 has gone stale 
+2018-Aug-30 10:25:45.302314 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.73:5007
+2018-Aug-30 10:25:45.302423 : CConnectionManager.cpp : Warn(3):
+	Connection to ds8:5002 has gone stale 
+2018-Aug-30 10:25:45.302552 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.68:5002
+2018-Aug-30 10:25:45.302659 : CConnectionManager.cpp : Warn(3):
+	Connection to ds9:5003 has gone stale 
+2018-Aug-30 10:25:45.302787 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.69:5003
+2018-Aug-30 10:25:45.442981 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:25:45.831964 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Aug-30 10:25:45.832033 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00
+2018-Aug-30 10:25:45.832076 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:25:45.832117 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:25:46.080332 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00
+2018-Aug-30 10:25:46.151228 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-Aug-30 10:25:46.151297 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00
+2018-Aug-30 10:25:46.151340 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:25:46.172667 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:25:46.172688 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:25:46.172708 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:25:46.172723 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:25:46.172753 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:25:50.250468 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Aug-30 10:25:50.250537 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:25:50.250579 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:25:50.250622 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:25:50.250677 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:25:50.250724 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:25:50.250795 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529678
+
+2018-Aug-30 10:25:50.391272 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:25:50.781279 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Aug-30 10:25:50.781347 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00
+2018-Aug-30 10:25:50.781389 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:25:50.781430 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:25:51.100540 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Aug-30 10:25:51.100610 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Aug-30 10:25:51.100670 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Aug-30 10:25:51.100710 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:25:51.122004 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:25:51.122025 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:25:51.122045 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:25:51.122061 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:25:51.122091 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:25:55.200827 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Aug-30 10:25:55.200907 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:25:55.200949 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:25:55.200992 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:25:55.201048 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:25:55.201096 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:25:55.201168 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529665
+
+2018-Aug-30 10:25:55.341674 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:25:55.731671 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Aug-30 10:25:55.731741 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00
+2018-Aug-30 10:25:55.731783 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:25:55.731824 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:25:56.050935 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Aug-30 10:25:56.051004 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Aug-30 10:25:56.051066 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Aug-30 10:25:56.051108 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:25:56.072987 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:25:56.073008 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:25:56.073028 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:25:56.073044 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:25:56.073075 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:25:56.080539 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00
+2018-Aug-30 10:25:59.328257 : CProtocolSR.cpp : Warn(3):
+	Connection to ds8:5002 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:59.328343 : CProtocolSR.cpp : Warn(3):
+	Connection to ds9:5003 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:59.328416 : CProtocolSR.cpp : Warn(3):
+	Connection to ds10:5004 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:59.328476 : CProtocolSR.cpp : Warn(3):
+	Connection to ds11:5005 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:59.328537 : CProtocolSR.cpp : Warn(3):
+	Connection to ds12:5006 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:25:59.328599 : CProtocolSR.cpp : Warn(3):
+	Connection to ds13:5007 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:26:00.151227 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-Aug-30 10:26:00.151295 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset 00:00:00
+2018-Aug-30 10:26:00.151336 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:26:00.151378 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:26:00.151434 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:26:00.151483 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:26:00.151557 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.528676
+
+2018-Aug-30 10:26:00.151605 : CConnectionManager.cpp : Warn(3):
+	Connection to ds10:5004 has gone stale 
+2018-Aug-30 10:26:00.151765 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.70:5004
+2018-Aug-30 10:26:00.151903 : CConnectionManager.cpp : Warn(3):
+	Connection to ds11:5005 has gone stale 
+2018-Aug-30 10:26:00.152041 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.71:5005
+2018-Aug-30 10:26:00.152163 : CConnectionManager.cpp : Warn(3):
+	Connection to ds12:5006 has gone stale 
+2018-Aug-30 10:26:00.152296 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.72:5006
+2018-Aug-30 10:26:00.152412 : CConnectionManager.cpp : Warn(3):
+	Connection to ds13:5007 has gone stale 
+2018-Aug-30 10:26:00.152547 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.73:5007
+2018-Aug-30 10:26:00.152656 : CConnectionManager.cpp : Warn(3):
+	Connection to ds8:5002 has gone stale 
+2018-Aug-30 10:26:00.152783 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.68:5002
+2018-Aug-30 10:26:00.152910 : CConnectionManager.cpp : Warn(3):
+	Connection to ds9:5003 has gone stale 
+2018-Aug-30 10:26:00.153039 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.69:5003
+2018-Aug-30 10:26:00.293232 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:26:00.682234 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-Aug-30 10:26:00.682304 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00
+2018-Aug-30 10:26:00.682347 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:26:00.682389 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:26:01.000500 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Aug-30 10:26:01.000569 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Aug-30 10:26:01.000630 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Aug-30 10:26:01.000673 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:26:01.021920 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:26:01.021941 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:26:01.021962 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:26:01.021992 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:26:01.022009 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:26:05.100788 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Aug-30 10:26:05.100868 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:26:05.100910 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:26:05.100953 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:26:05.101013 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:26:05.101060 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:26:05.101130 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529663
+
+2018-Aug-30 10:26:05.241587 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:26:05.631585 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Aug-30 10:26:05.631654 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00
+2018-Aug-30 10:26:05.631695 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:26:05.631737 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:26:05.950848 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Aug-30 10:26:05.950917 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Aug-30 10:26:05.950978 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Aug-30 10:26:05.951020 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:26:05.972053 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:26:05.972074 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:26:05.972094 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:26:05.972124 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:26:05.972140 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:26:06.081010 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00
+2018-Aug-30 10:26:10.051139 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-Aug-30 10:26:10.051209 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset 00:00:00
+2018-Aug-30 10:26:10.051251 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:26:10.051293 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:26:10.051349 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:26:10.051397 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:26:10.051470 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.528674
+
+2018-Aug-30 10:26:10.191990 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:26:10.580984 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 1) for 0 ms
+2018-Aug-30 10:26:10.581053 : CBroker.cpp : Notice(5):
+	Phase: gm for 0ms offset 00:00:00
+2018-Aug-30 10:26:10.581114 : CBroker.cpp : Notice(5):
+	Phase: sc for 320ms offset 00:00:00
+2018-Aug-30 10:26:10.581157 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:26:10.581197 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:26:10.901297 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-Aug-30 10:26:10.901366 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00
+2018-Aug-30 10:26:10.901408 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:26:10.922812 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:26:10.922834 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:26:10.922855 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:26:10.922889 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:26:10.922905 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:26:14.201228 : CProtocolSR.cpp : Warn(3):
+	Connection to ds10:5004 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:26:14.201307 : CProtocolSR.cpp : Warn(3):
+	Connection to ds11:5005 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:26:14.201375 : CProtocolSR.cpp : Warn(3):
+	Connection to ds12:5006 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:26:14.201437 : CProtocolSR.cpp : Warn(3):
+	Connection to ds13:5007 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:26:14.201493 : CProtocolSR.cpp : Warn(3):
+	Connection to ds8:5002 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:26:14.201547 : CProtocolSR.cpp : Warn(3):
+	Connection to ds9:5003 has lost 0 messages. Attempting to reconnect.
+2018-Aug-30 10:26:15.000539 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Aug-30 10:26:15.000617 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:26:15.000660 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:26:15.000703 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:26:15.000762 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:26:15.000813 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:26:15.000902 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529642
+
+2018-Aug-30 10:26:15.000954 : CConnectionManager.cpp : Warn(3):
+	Connection to ds10:5004 has gone stale 
+2018-Aug-30 10:26:15.001147 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.70:5004
+2018-Aug-30 10:26:15.001300 : CConnectionManager.cpp : Warn(3):
+	Connection to ds11:5005 has gone stale 
+2018-Aug-30 10:26:15.001438 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.71:5005
+2018-Aug-30 10:26:15.001561 : CConnectionManager.cpp : Warn(3):
+	Connection to ds12:5006 has gone stale 
+2018-Aug-30 10:26:15.001691 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.72:5006
+2018-Aug-30 10:26:15.001807 : CConnectionManager.cpp : Warn(3):
+	Connection to ds13:5007 has gone stale 
+2018-Aug-30 10:26:15.001939 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.73:5007
+2018-Aug-30 10:26:15.002049 : CConnectionManager.cpp : Warn(3):
+	Connection to ds8:5002 has gone stale 
+2018-Aug-30 10:26:15.002178 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.68:5002
+2018-Aug-30 10:26:15.002286 : CConnectionManager.cpp : Warn(3):
+	Connection to ds9:5003 has gone stale 
+2018-Aug-30 10:26:15.002416 : CConnectionManager.cpp : Warn(3):
+	EP = 10.146.64.69:5003
+2018-Aug-30 10:26:15.142592 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:26:15.532595 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 318 ms
+2018-Aug-30 10:26:15.532665 : CBroker.cpp : Notice(5):
+	Phase: sc for 318ms offset 00:00:00
+2018-Aug-30 10:26:15.532708 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:26:15.532748 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:26:15.850860 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Aug-30 10:26:15.850929 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Aug-30 10:26:15.850990 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Aug-30 10:26:15.851034 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:26:15.872054 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:26:15.872075 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:26:15.872097 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:26:15.872127 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:26:15.872143 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:26:16.081426 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00
+2018-Aug-30 10:26:19.951155 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 529 ms
+2018-Aug-30 10:26:19.951225 : CBroker.cpp : Notice(5):
+	Phase: gm for 529ms offset 00:00:00
+2018-Aug-30 10:26:19.951267 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:26:19.951309 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:26:19.951370 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:26:19.951417 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:26:19.951488 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.528673
+
+2018-Aug-30 10:26:20.091970 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:26:20.480957 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 1) for 0 ms
+2018-Aug-30 10:26:20.481027 : CBroker.cpp : Notice(5):
+	Phase: gm for 0ms offset 00:00:00
+2018-Aug-30 10:26:20.481088 : CBroker.cpp : Notice(5):
+	Phase: sc for 320ms offset 00:00:00
+2018-Aug-30 10:26:20.481129 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:26:20.481169 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:26:20.801279 : CBroker.cpp : Notice(5):
+	Aligned phase to 2 (was 2) for 4099 ms
+2018-Aug-30 10:26:20.801347 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4099ms offset 00:00:00
+2018-Aug-30 10:26:20.801389 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:26:20.822959 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:26:20.822981 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:26:20.823001 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:26:20.823031 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:26:20.823047 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:26:24.900505 : CBroker.cpp : Notice(5):
+	Aligned phase to 0 (was 0) for 530 ms
+2018-Aug-30 10:26:24.900574 : CBroker.cpp : Notice(5):
+	Phase: gm for 530ms offset 00:00:00
+2018-Aug-30 10:26:24.900615 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for vvc
+2018-Aug-30 10:26:24.900659 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 2
+2018-Aug-30 10:26:24.900715 : GroupManagement.cpp : Status(4):
+	Group Bitfield : 10000100000000000000000000000000
+2018-Aug-30 10:26:24.900764 : GroupManagement.cpp : Status(4):
+	Group Float : 4.62428e-44
+2018-Aug-30 10:26:24.900847 : GroupManagement.cpp : Status(4):
+	- SYSTEM STATE
+Me: ds7:5001, Group: 1804289384 Leader:ds7:5001
+SYSTEM NODES
+Node: ds10:5004 State: Unknown
+Node: ds11:5005 State: Unknown
+Node: ds12:5006 State: Unknown
+Node: ds13:5007 State: Unknown
+Node: ds7:5001 State: Up (Me, Coordinator)
+Node: ds8:5002 State: Unknown
+Node: ds9:5003 State: Unknown
+FID state: 0
+Current Skew: 00:00:00
+Time left in phase: 00:00:00.529674
+
+2018-Aug-30 10:26:25.041365 : GroupManagement.cpp : Warn(3):
+	Physical Topology not available. Groups will form using cyber topology only.
+2018-Aug-30 10:26:25.431353 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 1) for 319 ms
+2018-Aug-30 10:26:25.431421 : CBroker.cpp : Notice(5):
+	Phase: sc for 319ms offset 00:00:00
+2018-Aug-30 10:26:25.431464 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for gm
+2018-Aug-30 10:26:25.431505 : CBroker.cpp : Notice(5):
+	Scheduling task for next time timer: 0
+2018-Aug-30 10:26:25.750617 : CBroker.cpp : Notice(5):
+	Aligned phase to 1 (was 2) for 0 ms
+2018-Aug-30 10:26:25.750685 : CBroker.cpp : Notice(5):
+	Phase: sc for 0ms offset 00:00:00
+2018-Aug-30 10:26:25.750745 : CBroker.cpp : Notice(5):
+	Phase: vvc for 4100ms offset 00:00:00
+2018-Aug-30 10:26:25.750788 : CBroker.cpp : Notice(5):
+	Changed Phase: expiring next time timers for sc
+Dl dimension:41*16
+Phase A B C NoBranches:   29.0000   29.0000   25.0000
+
+No. of Nodes:34
+Error! No Load Phase A!
+Error! No Load Phase B!
+Error! No Load Phase C!
+Error! No Q load Phase A!
+Error! No Q Load Phase B!
+Error! No Q Load Phase C!
+   0.0688
+   0.0875
+   0.0893
+   0.0894
+   0.0896
+   0.0542
+   0.0542
+   0.0871
+   0.0875
+   0.0896
+   0.0900
+   0.0896
+
+   0.0015
+   0.0374
+   0.0486
+   0.0685
+   0.0706
+   0.0710
+   0.0711
+   0.0711
+   0.0116
+   0.0374
+   0.0489
+   0.0673
+   0.0708
+   0.0710
+   0.0710
+   0.0711
+
+   0.0026
+   0.0701
+   0.0812
+   0.0993
+   0.1006
+   0.1008
+   0.1009
+   0.0991
+   0.1008
+   0.1008
+   0.1008
+   0.1009
+
+ Best step-size obtained! Searching ends at the 49th iteration 
+ Expected power loss (kW) = 255.366
+ Expected power loss reduction (kW) = 3.15447
+2018-Aug-30 10:26:25.772089 : VoltVarCtrl.cpp : Notice(5):
+	Got VoltageDelta from: ds7:5001
+2018-Aug-30 10:26:25.772111 : VoltVarCtrl.cpp : Notice(5):
+	CF 2 Phase 3
+2018-Aug-30 10:26:25.772131 : VoltVarCtrl.cpp : Notice(5):
+	Got Gradients from ds7:5001
+2018-Aug-30 10:26:25.772162 : VoltVarCtrl.cpp : Notice(5):
+	size of vector 40
+2018-Aug-30 10:26:25.772179 : VoltVarCtrl.cpp : Notice(5):
+	the 1st element = -4.53208
+2018-Aug-30 10:26:26.081925 : CClockSynchronizer.cpp : Notice(5):
+	Adjusting Skew to 00:00:00

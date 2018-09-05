@@ -3,7 +3,7 @@
 	<adapter name="simulation" type="rtds">
 		<info>
 			<host>10.146.64.21</host>
-			<port>23012</port>
+			<port>23013</port>
 		</info>
 		<state/>
 		<command>
