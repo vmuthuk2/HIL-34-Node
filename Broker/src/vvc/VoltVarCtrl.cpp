@@ -487,7 +487,7 @@ try
     {
       cout << "Signal not updated!" << endl;
     }
-    else if (ploada->GetID()=="Pl4_a")
+    else if (ploada->GetID()=="Pl8_a")
     {
       Dl(9,6) = (double)xx*1.0;//ratio depends on the signal from RSCAD
       cout << "Phase A load for SST8 found:   " << Dl(9,6) <<" kW" << endl;
